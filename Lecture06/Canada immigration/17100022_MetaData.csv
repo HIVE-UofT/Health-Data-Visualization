@@ -1,0 +1,72 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Estimates of interprovincial migrants by province or territory of origin and destination, annual","17100022","051-0019","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710002201",1;2;8;9,"CURRENT - a cube available to the public and that is current","Annual","1971-01-01","2021-01-01","2",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography, province of origin",,""
+"2","Geography, province of destination",,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Newfoundland and Labrador, province of origin","[10]","1","","",3,
+"1","Prince Edward Island, province of origin","[11]","2","","",3,
+"1","Nova Scotia, province of origin","[12]","3","","",3,
+"1","New Brunswick, province of origin","[13]","4","","",3,
+"1","Quebec, province of origin","[24]","5","","",3,
+"1","Ontario, province of origin","[35]","6","","",3,
+"1","Manitoba, province of origin","[46]","7","","",3,
+"1","Saskatchewan, province of origin","[47]","8","","",3,
+"1","Alberta, province of origin","[48]","9","","",3,
+"1","British Columbia, province of origin","[59]","10","","",3,
+"1","Yukon, province of origin","[60]","11","","",3,
+"1","Northwest Territories including Nunavut, province of origin","","12","","t",4;5,
+"1","Northwest Territories, province of origin","[61]","16","","",6,
+"1","Nunavut, province of origin","[62]","17","","",6,
+"2","Newfoundland and Labrador, province of destination","","1","","",,
+"2","Prince Edward Island, province of destination","","2","","",,
+"2","Nova Scotia, province of destination","","3","","",,
+"2","New Brunswick, province of destination","","4","","",,
+"2","Quebec, province of destination","","5","","",,
+"2","Ontario, province of destination","","6","","",,
+"2","Manitoba, province of destination","","7","","",,
+"2","Saskatchewan, province of destination","","8","","",,
+"2","Alberta, province of destination","","9","","",,
+"2","British Columbia, province of destination","","10","","",,
+"2","Yukon, province of destination","","11","","",,
+"2","Northwest Territories including Nunavut, province of destination","","12","","t",7,
+"2","Northwest Territories, province of destination","","16","","",6,
+"2","Nunavut, province of destination","","17","","",6,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3601","Quarterly Demographic Estimates"
+
+"Subject Code","Subject Name"
+"17","Population and demography"
+
+"Note ID",Note
+1,"Period from July 1 to June 30."
+2,"Interprovincial migration represents movements from one province or territory to another, involving a change in usual place of residence. A person who takes up residence in another province or territory is an out-migrant with reference to the province or territory of origin, and an in-migrant with reference to the province or territory of destination. Net interprovincial migration is the difference between the number of in-migrants and the number of out-migrants."
+3,"From 1971/1972 to 1975/1976, estimates are based on Family Allowance data. From 1976/1977 to 2020/2021, estimates are based on Canada Revenue Agency (CRA) tax data. For 2021/2022, estimates are based on Canada child benefit data from CRA."
+4,"From 1971/1972 to 1975/1976, estimates were based on Family Allowance data. From 1976/1977 to 1990/1991, estimates were based on Canada Revenue Agency (CRA) tax data. Data for Northwest Territories and Nunavut are presented separately from 1991/1992."
+5,"From 1976/1977 to 1990/1991, in-migrants, out-migrants and net migration totals do not include migration between Northwest Territories and Nunavut."
+6,"Prior to 1991/1992, only data for Northwest Territories and Nunavut combined are available. From 1991/1992 to 2020/2021, estimates were based on Canada Revenue Agency (CRA) tax data. For 2021/2022, estimates were based on Canada child benefit data from CRA."
+7,"Data for Northwest Territories and Nunavut are presented separately from 1991/1992."
+8,"The number of interprovincial migrants is final up to 2020/2021 and preliminary for 2021/2022."
+9,"The population growth, which is used to calculate population estimates, is comprised of the natural growth (Table 17100008), international migration (Table 17100008) and interprovincial migration (Tables 17100008, 17100021 and 17100022)."
+
+"Correction ID","Correction Date","Correction Note"
