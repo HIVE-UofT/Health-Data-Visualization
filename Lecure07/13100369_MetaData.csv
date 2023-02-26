@@ -1,0 +1,73 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Potential years of life lost, for unintentional injuries and suicides",13100369,102-0110,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310036901",1;2;3;4;5;6;10;13,"ARCHIVED -  a cube publicly available but no longer being updated",Annual,2000-01-01,2014-01-01,4
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Correction Notes","Dimension Definitions"
+1,Geography,,,
+2,Sex,6,,
+3,"Selected causes of death (ICD-10)",2,,
+4,Characteristics,3;4;5;9;11;12,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Correction Notes","Member Geo Attribute Keys","Member Definitions"
+1,Canada,[11124],1,,,,,,
+1,"Newfoundland and Labrador",[10],2,1,,,,,
+1,"Prince Edward Island",[1100],3,1,,,,,
+1,"Nova Scotia",[12],4,1,,,,,
+1,"New Brunswick",[13],5,1,,,,,
+1,Quebec,[24],6,1,,,,,
+1,Ontario,[35],7,1,,,,,
+1,Manitoba,[46],8,1,,,,,
+1,Saskatchewan,[47],9,1,,,,,
+1,Alberta,[48],10,1,,,,,
+1,"British Columbia",[59],11,1,,,,,
+1,Yukon,[6001],12,1,,8,,,
+1,"Northwest Territories",[6101],14,1,,8,,,
+1,Nunavut,[6201],15,1,,8,,,
+2,"Both sexes",,1,,,,,,
+2,Males,,2,1,,,,,
+2,Females,,3,1,,,,,
+3,"Unintentional injuries","[V01-X59, Y85-Y86]",8,,,7,,,
+3,Suicides,"[X60-X84, Y87]",9,,,,,,
+4,"Number of potential years of life lost",,1,,,,,,
+4,"Potential years of life lost, rate per 100,000 population",,2,,,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3233,"Vital Statistics - Death Database"
+
+"Subject Code","Subject Name"
+13,Health
+
+"Note ID",Note
+1,"Sources: Statistics Canada, Canadian Vital Statistics, Death Database and Demography Division (population estimates)"
+2,"World Health Organization (WHO), International Statistical Classification of Diseases and Related Health Problems, Tenth Revision (ICD-10)"
+3,"Potential years of life lost (PYLL) is the number of years of potential life not lived when a person dies ""prematurely"", defined for this indicator as before age 75. All rates in this table are calculated using the population aged 0 to 74."
+4,"Counts and rates in this table exclude: deaths of non-residents of Canada; deaths of residents of Canada whose province or territory of residence was unknown; deaths for which age of decedent was unknown."
+5,"Rates in this table are based on place of residence for indicators derived from death events."
+6,"For data year 2000 to 2009, missing data on sex of the deceased were imputed based on death registration number. Starting with 2010 data year, missing data on sex of the deceased were imputed based on the cause of death information and a logistic regression."
+7,"External causes of unintentional injuries include deaths due to accidental causes such as motor vehicle accidents, falls, poisoning, drowning, fires, natural, environmental and mechanical factors, but not medical misadventures, abnormal reactions or complications."
+8,"Potential years of life lost (PYLL) for the Yukon, the Northwest Territories and Nunavut should be interpreted with caution due to a small underlying count."
+9,"The following standard symbols are used in this Statistics Canada table: (..) for figures not available for a specific reference period and (...) for figures not applicable."
+10,"The CANSIM table 102-0110 is an update of CANSIM table 102-0010."
+11,"For data year 2005 to 2009, the population estimates used to calculate the mortality rate are presented in the Appendix II of the publication ""Mortality Summary List of Causes"" (catalogue number 84F0209XIE)."
+12,"Starting with the 2010 data year, information regarding the population estimates used for the mortality rate calculations is found in the ""Data sources"" entry for survey number 3233."
+13,"The totals (all causes of death) by age group and/ or sex presented in this table may not reflect those given in CANSIM tables 102-0501 to 102-0510, 102-0030 due to the correction of age or sex information that was inconsistent with the underlying cause of death."
+
+"Correction ID","Correction Date","Correction Note"
+
+
