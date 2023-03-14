@@ -1,0 +1,92 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions",Universe,"Variable List"
+"Body mass index (BMI)",13100488,105-4009,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310048801",1;2;3;4;5;6,"CURRENT - a cube available to the public and that is current",Occasional,1994-01-01,2007-01-01,4,,
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Correction Notes","Dimension Definitions"
+1,Geography,,,
+2,Sex,,,
+3,"Body mass index (BMI)",2;3;4;5,,
+4,Characteristics,6;7;8;9;10;13,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Correction Notes","Member Geo Attribute Keys","Member Definitions"
+1,Canada,[11124],1,,,11,,,
+1,"Newfoundland and Labrador",[10],2,1,,,,,
+1,"Prince Edward Island",[11],3,1,,,,,
+1,"Nova Scotia",[12],4,1,,,,,
+1,"New Brunswick",[13],5,1,,,,,
+1,Quebec,[24],6,1,,,,,
+1,Ontario,[35],7,1,,,,,
+1,Manitoba,[46],8,1,,,,,
+1,Saskatchewan,[47],9,1,,,,,
+1,Alberta,[48],10,1,,,,,
+1,"British Columbia",[59],11,1,,,,,
+1,Yukon,[60],12,1,,,,,
+1,"Northwest Territories",[61],13,1,,12,,,
+1,Nunavut,[62],14,1,,12,,,
+2,"Both sexes",,1,,,,,,
+2,Males,,2,1,,,,,
+2,Females,,3,1,,,,,
+3,"Total population for the variable body mass index",,1,,,,,,
+3,"Underweight, body mass index under 18.50",,2,1,,,,,
+3,"Normal weight, body mass index 18.50 to 24.99",,3,1,,,,,
+3,"Overweight, body mass index 25.00 to 29.99",,4,1,,,,,
+3,"Obese, body mass index 30.00 or higher",,5,1,,,,,
+3,"Body mass index, not stated",,6,1,,,,,
+3,"Obese, class I, body mass index 30.00 to 34.99",,7,5,,,,,
+3,"Obese, class II, body mass index 35.00 to 39.99",,8,5,,,,,
+3,"Obese, class III, body mass index 40.00 or higher",,9,5,,,,,
+4,"Number of persons",,1,,,,,,
+4,"Low 95% confidence interval, number of persons",,2,,,,,,
+4,"High 95% confidence interval, number of persons",,3,,,,,,
+4,"Coefficient of variation for number of persons",,4,,,,,,
+4,Percent,,5,,,,,,
+4,"Low 95% confidence interval, percent",,6,,,,,,
+4,"High 95% confidence interval, percent",,7,,,,,,
+4,"Coefficient of variation for percent",,8,,,,,,
+4,"Age-standardized rate",,9,,,,,,
+4,"Low 95% confidence interval, age-standardized rate",,10,,,,,,
+4,"High 95% confidence interval, age-standardized rate",,11,,,,,,
+4,"Coefficient of variation for age-standardized rate",,12,,,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published.",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+3226,"Canadian Community Health Survey - Annual Component"
+3236,"National Population Health Survey: Household Component, Cross-sectional"
+5004,"National Population Health Survey: North Component"
+
+"Subject Code","Subject Name"
+13,Health
+
+"Note ID",Note
+1,"Sources: Statistics Canada, Canadian Community Health Survey (CCHS), 2000/2001, 2003, 2005 and 2007; National Population Health Survey (NPHS), 1994/1995, 1996/1997 and 1998/1999, cross sectional sample, health file (household component); National Population Health Survey (NPHS), 1994/1995 and 1996/1997, cross sectional sample, health file (North component)"
+2,"Population aged 18 and over, excluding pregnant females and persons less than 3 feet (0.914 metres) tall or greater than 6 feet 11 inches (2.108 metres). A definition change was implemented in 2004 to conform with Health Canada guidelines for body weight classification."
+3,"Body mass index (BMI) is calculated by dividing the respondent's body weight (in kilograms) by their height (in metres) squared."
+4,"The index is: less than 18.50 (underweight); 18.50 to 24.99 (normal weight), 25.00 to 29.99 (overweight); 30.00 to 34.99 (obese, class I); 35.00 to 39.99 (obese, class II); 40.00 or greater (obese, class III)."
+5,"Body mass index (BMI) is a method of classifying body weight according to health risk. According to the World Health Organization (WHO) and Health Canada guidelines, health risk levels are associated with each of the following BMI categories: normal weight = least health risk; underweight and overweight = increased health risk; obese, class I = high health risk; obese, class II = very high health risk; obese, class III = extremely high health risk."
+6,"Rates are age-standardized using the direct method and the 1991 Canadian Census population structure. The use of a standard population results in more meaningful comparisons because it adjusts for variations in population age distributions over time and across geographic areas."
+7,"When comparing estimates, it is important to use confidence intervals to determine if differences between values are statistically significant. Confidence intervals describe sampling variability and give an indication of the precision of a given estimate. Bootstrapping techniques were used to produce the coefficient of variation (CV) and 95% confidence intervals (CIs)."
+8,"Data with a coefficient of variation (CV) from 16.6% to 33.3% are identified as follows: (E) use with caution."
+9,"Data with a coefficient of variation (CV) greater than 33.3% were suppressed due to extreme sampling variability and are identified as follows: (F) too unreliable to be published."
+10,"Currently produced National Population Health Survey (NPHS) data (cross sectional sample, health file, household component) make use of new coordinated bootstrap weights, and as a result confidence intervals (CI) and coefficient of variations (CV) may differ from values previously published."
+11,"In this table, the Canada totals for data years 1994/1995 to 1998/1999 were produced by aggregating two components of the National Population Health Survey (NPHS): household (provinces) and North (territories) components. In previously released tables, Canada totals were based on NPHS household component only and excluded the territories."
+12,"Nunavut and the Northwest Territories (excluding Nunavut) came into existence on April 1, 1999. To facilitate comparisons, data presented in this table for the Northwest Territories reflect the current boundaries, showing the Northwest Territories and Nunavut as separate regions."
+13,"The following standard symbols are used in this Statistics Canada table: (..) for figures not available for a specific reference period and (...) for figures not applicable."
+
+"Dimension ID","Member ID","Attribute Key",Title,Label,"Long Label",Value
+
+
