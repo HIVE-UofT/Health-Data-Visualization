@@ -1,0 +1,130 @@
+Diagnosis_1,Diagnosis_2,freq
+burns/trauma,burns/trauma,21
+burns/trauma,cardiovascular,5
+burns/trauma,endocrine,1
+burns/trauma,general,1
+burns/trauma,hematology,1
+burns/trauma,infectious diseases,1
+burns/trauma,neurologic,3
+burns/trauma,pulmonary,1
+burns/trauma,renal,1
+burns/trauma,surgery,1
+burns/trauma,toxicology,2
+cardiovascular,burns/trauma,8
+cardiovascular,cardiovascular,302
+cardiovascular,endocrine,35
+cardiovascular,gastrointestinal,19
+cardiovascular,general,2
+cardiovascular,hematology,10
+cardiovascular,infectious diseases,16
+cardiovascular,neurologic,31
+cardiovascular,oncology,5
+cardiovascular,pulmonary,72
+cardiovascular,renal,44
+cardiovascular,surgery,2
+cardiovascular,toxicology,3
+cardiovascular,transplant,1
+endocrine,cardiovascular,32
+endocrine,endocrine,52
+endocrine,gastrointestinal,8
+endocrine,hematology,6
+endocrine,infectious diseases,6
+endocrine,neurologic,10
+endocrine,oncology,1
+endocrine,pulmonary,8
+endocrine,renal,7
+endocrine,surgery,3
+endocrine,toxicology,3
+gastrointestinal,burns/trauma,2
+gastrointestinal,cardiovascular,24
+gastrointestinal,endocrine,10
+gastrointestinal,gastrointestinal,85
+gastrointestinal,general,1
+gastrointestinal,hematology,13
+gastrointestinal,infectious diseases,4
+gastrointestinal,neurologic,6
+gastrointestinal,oncology,4
+gastrointestinal,pulmonary,18
+gastrointestinal,renal,15
+gastrointestinal,surgery,1
+gastrointestinal,toxicology,2
+general,cardiovascular,1
+hematology,burns/trauma,2
+hematology,cardiovascular,11
+hematology,endocrine,4
+hematology,gastrointestinal,8
+hematology,general,1
+hematology,hematology,7
+hematology,infectious diseases,6
+hematology,neurologic,3
+hematology,oncology,1
+hematology,pulmonary,3
+hematology,renal,5
+infectious diseases,cardiovascular,19
+infectious diseases,endocrine,3
+infectious diseases,gastrointestinal,6
+infectious diseases,hematology,6
+infectious diseases,infectious diseases,25
+infectious diseases,neurologic,3
+infectious diseases,oncology,2
+infectious diseases,pulmonary,9
+infectious diseases,renal,4
+neurologic,burns/trauma,4
+neurologic,cardiovascular,29
+neurologic,endocrine,11
+neurologic,gastrointestinal,4
+neurologic,general,1
+neurologic,hematology,9
+neurologic,infectious diseases,4
+neurologic,neurologic,76
+neurologic,oncology,2
+neurologic,pulmonary,19
+neurologic,renal,9
+neurologic,surgery,2
+neurologic,toxicology,9
+oncology,cardiovascular,5
+oncology,endocrine,1
+oncology,gastrointestinal,4
+oncology,hematology,2
+oncology,oncology,7
+oncology,pulmonary,12
+oncology,renal,1
+pulmonary,burns/trauma,3
+pulmonary,cardiovascular,68
+pulmonary,endocrine,8
+pulmonary,gastrointestinal,9
+pulmonary,hematology,7
+pulmonary,infectious diseases,5
+pulmonary,neurologic,15
+pulmonary,oncology,2
+pulmonary,pulmonary,154
+pulmonary,renal,31
+pulmonary,surgery,1
+pulmonary,transplant,1
+renal,cardiovascular,31
+renal,endocrine,11
+renal,gastrointestinal,15
+renal,hematology,5
+renal,infectious diseases,10
+renal,neurologic,11
+renal,pulmonary,14
+renal,renal,35
+renal,surgery,1
+surgery,cardiovascular,4
+surgery,gastrointestinal,1
+surgery,hematology,1
+surgery,infectious diseases,1
+surgery,pulmonary,2
+surgery,renal,4
+surgery,surgery,16
+toxicology,burns/trauma,1
+toxicology,cardiovascular,1
+toxicology,endocrine,2
+toxicology,neurologic,11
+toxicology,pulmonary,3
+toxicology,renal,3
+toxicology,toxicology,33
+transplant,cardiovascular,1
+transplant,infectious diseases,1
+transplant,neurologic,1
+transplant,pulmonary,2
